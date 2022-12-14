@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Formulario_CV.Vistas.Otros">
+    <Grid Margin="10,10,10,10"
+          Padding="30,30,30,30"
+          Background="#919191"
+          RowSpacing="5"
+          ColumnSpacing="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Text="Redes sociales:"
+               Grid.Row="0"
+               Grid.Column="0"
+               Margin="-10,-20,0,0"
+               FontSize="30" />
+        <Entry Placeholder="Escribe tus redes"
+               Grid.Row="0"
+               Grid.Column="1"
+               Margin="-40,0,0,0"
+               x:Name="redesx" />
+        <Label Text="Educacion:"
+               Grid.Row="1"
+               Grid.Column="0"
+               Margin="-10,0,0,0"
+               FontSize="30" />
+        <Entry Placeholder="Escribe tu educacion"
+               x:Name="educacionx"
+               Margin="-20,0,0,0"
+               Grid.Row="1"
+               Grid.Column="1" />
+        <Label Text="Experiencia:"
+               Grid.Row="2"
+               Grid.Column="0"
+               Margin="-10,0,0,0"
+               FontSize="30" />
+        <Entry Placeholder="Escribe tu exp"
+               x:Name="experienciax"
+               Margin="-5,0,0,0"
+               Grid.Row="2"
+               Grid.Column="1" />
+        <Label Text="Hobbies:"
+               Grid.Row="3"
+               Grid.Column="0"
+               Margin="-10,0,0,0"
+               FontSize="30" />
+        <Entry Placeholder="Escribe tus hobbies"
+               x:Name="hobbiesx"
+               Margin="-50,0,0,0"
+               Grid.Row="3"
+               Grid.Column="1" />
+        <Button Text="Visualizar"
+                Grid.Row="4"
+                Grid.Column="0"
+                Margin="30,10,-150,-10"
+                BackgroundColor="#80AEFF"
+                FontSize="30"
+                x:Name="btncompletado1"
+                Clicked="btncompletado_Clicked" />
+        
+        
+        <Button Text="Enviar por correo"
+                Grid.Row="5"
+                Grid.Column="0"
+                BackgroundColor="#80AEFF"
+                FontSize="25"
+                Margin="30,20,-150,-30"
+                x:Name="btncompletado2"
+                Clicked="btncompletado2_Clicked"
+                 />
+
+    </Grid>
+</ContentPage>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Formulario_CV.Vistas.Idiomas">
+    <ScrollView>
+        <StackLayout BackgroundColor="#919191">
+            <StackLayout x:Name="languague">
+                <Label Text="Idiomas:"
+                       FontSize="30" />
+                <Entry Placeholder="Escribe tus idiomas aqui"
+                       x:Name="idiomasx" />
+            </StackLayout>
+            <Button Text="+"
+                    Clicked="Button_Clicked" />
+                    
+            <Button Text="Siguiente"
+                    BackgroundColor="#80AEFF"
+                    FontSize="25"
+                    x:Name="btncompletado"
+                    Clicked="btncompletado_Clicked" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

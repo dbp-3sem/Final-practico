@@ -1,0 +1,20 @@
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\Formulario CV.csproj.AssemblyReference.cache
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\Formulario CV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\Vistas\Datos_personales.xaml.g.cs
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\Vistas\Enviar.xaml.g.cs
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\Vistas\Idiomas.xaml.g.cs
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\Vistas\Otros.xaml.g.cs
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\Vistas\Perfil.xaml.g.cs
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\Vistas\Principal.xaml.g.cs
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\Formulario CV.AssemblyInfoInputs.cache
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\Formulario CV.AssemblyInfo.cs
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\Formulario CV.csproj.CoreCompileInputs.cache
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\bin\Debug\netstandard2.0\Formulario CV.deps.json
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\bin\Debug\netstandard2.0\Formulario CV.dll
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\bin\Debug\netstandard2.0\Formulario CV.pdb
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\Formulario CV.dll
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\refint\Formulario CV.dll
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\Formulario CV.pdb
+C:\Users\jarb2\Downloads\Formulario CV\Formulario CV\obj\Debug\netstandard2.0\ref\Formulario CV.dll

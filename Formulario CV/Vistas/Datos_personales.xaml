@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Formulario_CV.Vistas.Datos_personales">
+    <Grid Margin="10,10,10,10"
+          Padding="30,30,30,30"
+          Background="#919191"
+          RowSpacing="5"
+          ColumnSpacing="5" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Label Grid.Row="0"
+               Grid.Column="0"
+               Text="Nombre:"
+               Margin="0,0,0,0"
+               FontSize="30" />
+        <Entry Grid.Row="0"
+               Grid.Column="1"
+               Placeholder="Introduce tu nombre"
+               Margin="-18,0,-20,0"
+               x:Name="info_nombre" />
+        
+        <Label Grid.Row="1"
+               Grid.Column="0"
+               Text="Edad:"
+               Margin="0,0,0,0"
+               FontSize="30" />
+        <Entry Grid.Row="1"
+               Grid.Column="1"
+               Keyboard="Numeric"
+               Placeholder="Introduce tu edad"
+               Margin="-18,0,-20,0"
+               x:Name="info_edad" />
+        
+        <Label Grid.Row="2"
+               Grid.Column="0"
+               Text="Email:"
+               Margin="0,0,0,0"
+               FontSize="30" />
+        <Entry Grid.Row="2"
+               Grid.Column="1"
+               Placeholder="Introduce tu email"
+               Margin="-18,0,-20,0"
+               x:Name="info_correo" />
+        
+        <Label Grid.Row="3"
+               Grid.Column="0"
+               Text="Telefono:"
+               Margin="0,0,0,0"
+               FontSize="30" />
+        <Entry Grid.Row="3"
+               Grid.Column="1"
+               Keyboard="Numeric"
+               Placeholder="Introduce tu telefono"
+               Margin="-18,0,-20,0"
+               x:Name="info_telefono" />
+        <Label Grid.Row="4"
+               Grid.Column="0"
+               Text="Direccion:"
+               Margin="0,0,0,0"
+               FontSize="30" />
+        <Entry Grid.Row="4"
+               Grid.Column="1"
+               Placeholder="Introduce tu direcion"
+               Margin="-18,0,-20,0"
+               x:Name="info_direccion" />
+        <Label 
+               Grid.Row="5"
+               Grid.Column="0"
+               Text="ocupacion: "
+               FontSize="30" />
+        <Entry Grid.Row="5" 
+               Grid.Column="1"
+               Placeholder="Intro. ocp"
+               x:Name="info_ocupacion" />
+            <Button Grid.Row="5"
+                    Grid.Column="1"
+                    Margin="130,0,-20,0"
+                    Text="+"
+                    Clicked="Button_Clicked" />
+        <Button Text="Siguiente"
+                Grid.Row="6"
+                Grid.Column="0"
+                Margin="-50,250,-200,-20"
+                BackgroundColor="#80AEFF"
+                FontSize="25"
+                x:Name="btncompletado"
+                Clicked="btncompletado_Clicked" />
+    </Grid>
+</ContentPage>
